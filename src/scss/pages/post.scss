@@ -1,0 +1,32 @@
+.post {
+	header {
+		margin-bottom: 40px;
+	}
+	.title {
+		margin-bottom: 4px;
+	}
+	.author {
+		display: flex;
+		align-items: center;
+		margin-bottom: 40px;
+		.name {
+			margin-bottom: 0;
+			font-size: 1.25em;
+		}
+		.description {
+			margin-bottom: 0;
+			font-size: 1em;
+			font-weight: 200;
+			font-style: italic;
+		}
+		.image {
+			$square: 100px;
+			width: $square;
+			height: $square;
+			margin-right: 20px;
+			img {
+				border-radius: 50%;
+			}
+		}
+	}
+}
